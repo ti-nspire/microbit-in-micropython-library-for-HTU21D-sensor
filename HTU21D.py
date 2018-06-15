@@ -75,12 +75,12 @@ if __name__ == "__main__":
     HTU = HTU21D()
     
     #HTU.softReset() # To soft-reset the HTU21D, uncomment this line.
+    
+    #HTU.setResolution(HTU.RH12_TEMP14) # You can select one of the four resolutions.
+    #HTU.setResolution(HTU.RH08_TEMP12)
+    #HTU.setResolution(HTU.RH10_TEMP13)
+    #HTU.setResolution(HTU.RH11_TEMP11)
     while True:
-        #HTU.setResolution(HTU.RH12_TEMP14) # You can select one of the four resolutions.
-        #HTU.setResolution(HTU.RH08_TEMP12)
-        #HTU.setResolution(HTU.RH10_TEMP13)
-        #HTU.setResolution(HTU.RH11_TEMP11)
-
         #print(HTU.readUserRegister()) # To serial.print the user register, uncomment this line.
         
         temp  = HTU.readTemp()
