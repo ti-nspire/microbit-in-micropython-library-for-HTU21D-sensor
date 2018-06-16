@@ -81,7 +81,7 @@ if __name__ == "__main__":
     #HTU.setResolution(HTU.RH10_TEMP13)
     #HTU.setResolution(HTU.RH11_TEMP11)
     while True:
-        #print(HTU.readUserRegister()) # To serial.print the user register, uncomment this line.
+        #print(HTU.readUserRegister()) # To serial.print() the user register, uncomment this line.
         
         temp  = HTU.readTemp()
         humid = HTU.readHumid()
