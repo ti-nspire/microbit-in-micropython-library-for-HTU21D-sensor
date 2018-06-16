@@ -72,7 +72,7 @@ class HTU21D:
 # how to use #
 ##############
 if __name__ == "__main__":
-    HTU = HTU21D()
+    HTU = HTU21D() # Instantiate the HTU21D class.
     
     #HTU.softReset() # To soft-reset the HTU21D, uncomment this line.
     
